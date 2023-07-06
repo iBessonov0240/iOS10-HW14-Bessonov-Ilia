@@ -14,6 +14,12 @@
 		FA9597BF2A557679005513C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FA9597BE2A557679005513C0 /* Assets.xcassets */; };
 		FA9597C22A557679005513C0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FA9597C02A557679005513C0 /* LaunchScreen.storyboard */; };
 		FA9597CF2A5577A0005513C0 /* UIVIew+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597CE2A5577A0005513C0 /* UIVIew+Extensions.swift */; };
+		FA9597D12A5594CC005513C0 /* MyAlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597D02A5594CC005513C0 /* MyAlbumsCell.swift */; };
+		FA9597D32A559962005513C0 /* PhotosModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597D22A559962005513C0 /* PhotosModel.swift */; };
+		FA9597D52A55BA02005513C0 /* SimpleCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597D42A55BA02005513C0 /* SimpleCellHeader.swift */; };
+		FA9597D72A55BAA6005513C0 /* LabelAndButtonCellHeader.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597D62A55BAA6005513C0 /* LabelAndButtonCellHeader.swift */; };
+		FA9597D92A55ECDF005513C0 /* SharedAlbumsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597D82A55ECDF005513C0 /* SharedAlbumsCell.swift */; };
+		FA9597DE2A561F19005513C0 /* TableCellInCollectionCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597DD2A561F19005513C0 /* TableCellInCollectionCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +32,12 @@
 		FA9597C12A557679005513C0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FA9597C32A557679005513C0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FA9597CE2A5577A0005513C0 /* UIVIew+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIVIew+Extensions.swift"; sourceTree = "<group>"; };
+		FA9597D02A5594CC005513C0 /* MyAlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAlbumsCell.swift; sourceTree = "<group>"; };
+		FA9597D22A559962005513C0 /* PhotosModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosModel.swift; sourceTree = "<group>"; };
+		FA9597D42A55BA02005513C0 /* SimpleCellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleCellHeader.swift; sourceTree = "<group>"; };
+		FA9597D62A55BAA6005513C0 /* LabelAndButtonCellHeader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LabelAndButtonCellHeader.swift; sourceTree = "<group>"; };
+		FA9597D82A55ECDF005513C0 /* SharedAlbumsCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SharedAlbumsCell.swift; sourceTree = "<group>"; };
+		FA9597DD2A561F19005513C0 /* TableCellInCollectionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TableCellInCollectionCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,7 +100,9 @@
 		FA9597CB2A55773F005513C0 /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				FA9597DC2A560AB0005513C0 /* Cells */,
 				FA9597B92A557677005513C0 /* ViewController.swift */,
+				FA9597D22A559962005513C0 /* PhotosModel.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -108,6 +122,18 @@
 				FA9597CE2A5577A0005513C0 /* UIVIew+Extensions.swift */,
 			);
 			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FA9597DC2A560AB0005513C0 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				FA9597D42A55BA02005513C0 /* SimpleCellHeader.swift */,
+				FA9597D62A55BAA6005513C0 /* LabelAndButtonCellHeader.swift */,
+				FA9597D02A5594CC005513C0 /* MyAlbumsCell.swift */,
+				FA9597D82A55ECDF005513C0 /* SharedAlbumsCell.swift */,
+				FA9597DD2A561F19005513C0 /* TableCellInCollectionCell.swift */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -181,10 +207,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FA9597DE2A561F19005513C0 /* TableCellInCollectionCell.swift in Sources */,
 				FA9597BA2A557677005513C0 /* ViewController.swift in Sources */,
+				FA9597D72A55BAA6005513C0 /* LabelAndButtonCellHeader.swift in Sources */,
 				FA9597B62A557677005513C0 /* AppDelegate.swift in Sources */,
+				FA9597D32A559962005513C0 /* PhotosModel.swift in Sources */,
 				FA9597CF2A5577A0005513C0 /* UIVIew+Extensions.swift in Sources */,
+				FA9597D52A55BA02005513C0 /* SimpleCellHeader.swift in Sources */,
 				FA9597B82A557677005513C0 /* SceneDelegate.swift in Sources */,
+				FA9597D12A5594CC005513C0 /* MyAlbumsCell.swift in Sources */,
+				FA9597D92A55ECDF005513C0 /* SharedAlbumsCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +292,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -314,7 +346,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -339,6 +371,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -367,6 +400,7 @@
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
