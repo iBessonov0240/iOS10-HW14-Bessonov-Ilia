@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FA40F5F32A5D3AAD00DBD1E1 /* PhotoCollectionViewItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA40F5F22A5D3AAD00DBD1E1 /* PhotoCollectionViewItem.swift */; };
 		FA9597B62A557677005513C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597B52A557677005513C0 /* AppDelegate.swift */; };
 		FA9597B82A557677005513C0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597B72A557677005513C0 /* SceneDelegate.swift */; };
 		FA9597BA2A557677005513C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA9597B92A557677005513C0 /* ViewController.swift */; };
@@ -23,6 +24,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		FA40F5F22A5D3AAD00DBD1E1 /* PhotoCollectionViewItem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoCollectionViewItem.swift; sourceTree = "<group>"; };
 		FA9597B22A557677005513C0 /* iOS10-HW14-Bessonov Ilia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "iOS10-HW14-Bessonov Ilia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FA9597B52A557677005513C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FA9597B72A557677005513C0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 				FA9597DC2A560AB0005513C0 /* Cells */,
 				FA9597B92A557677005513C0 /* ViewController.swift */,
 				FA9597D22A559962005513C0 /* PhotosModel.swift */,
+				FA40F5F22A5D3AAD00DBD1E1 /* PhotoCollectionViewItem.swift */,
 			);
 			path = Sources;
 			sourceTree = "<group>";
@@ -211,6 +214,7 @@
 				FA9597BA2A557677005513C0 /* ViewController.swift in Sources */,
 				FA9597D72A55BAA6005513C0 /* LabelAndButtonCellHeader.swift in Sources */,
 				FA9597B62A557677005513C0 /* AppDelegate.swift in Sources */,
+				FA40F5F32A5D3AAD00DBD1E1 /* PhotoCollectionViewItem.swift in Sources */,
 				FA9597D32A559962005513C0 /* PhotosModel.swift in Sources */,
 				FA9597CF2A5577A0005513C0 /* UIVIew+Extensions.swift in Sources */,
 				FA9597D52A55BA02005513C0 /* SimpleCellHeader.swift in Sources */,
